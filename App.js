@@ -46,11 +46,9 @@ export default function App() {
         </Text>
         <Image
           style={{ width: 100, height: 100 }}
-          source={{
-            uri:
-              "https://www.pngonly.com/wp-content/uploads/2018/11/emoji-png.png",
-          }}
-        ></Image>
+          source={require("./assets/emoticon.png")}
+        />
+
         <Button title="Submit" onPress={buttonPressed} />
       </View>
     </View>
